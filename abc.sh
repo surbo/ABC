@@ -2,7 +2,7 @@
 #ABC 
 #[A]lready [B]een [C]ompromised
 #Checking Script modified from https://medium.com/@monliclican/bash-one-liner-to-check-your-password-s-via-pwnedpasswords-coms-api-using-the-k-anonymity-method-a5807a9a8056
-#Have a list of passwords and you want to check them against a breach dump but you don't want to share the full password with the api?  This is your tool.
+#Have a list of passwords and you want to check them against a breach dump but you don't want to share sha1 with the api?  This is your tool.
 # cat your list of passwords into to this script.  'Don't for get to chmod the script =) '
 # example:  cat passwords | ./abc.sh
 while read var
